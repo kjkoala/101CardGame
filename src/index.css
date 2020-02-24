@@ -1,0 +1,27 @@
+body {
+    background: black url('chrome://global/skin/media/imagedoc-darknoise.png') repeat;
+    color: white;
+}
+
+.card {
+    background-repeat: no-repeat;
+    background-position: -813px -533px;
+    width: 180px;
+    height: 250px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.card.bubi {
+    background-image: url('./assets/bubi.jpg')
+}
+.card.worms {
+    background-image: url('./assets/worms.jpg')
+}
+.card.peaks {
+    background-image: url('./assets/peaks.jpg')
+}
+
+.card.cross {
+    background-image: url('./assets/cross.jpg');
+}
